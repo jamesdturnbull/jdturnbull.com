@@ -118,7 +118,7 @@ export default function AboutPage() {
               ))}
             </div>
             <p className="text-center text-primary-600 mt-6">
-              If you're a UK business doing £200K-£5M annually, we can probably help.
+              If you're a UK business drowning in admin, we can probably help.
             </p>
           </section>
 

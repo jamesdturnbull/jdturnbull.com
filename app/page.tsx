@@ -14,7 +14,7 @@ export default function HomePage() {
               <span className="text-accent-600">You need smarter systems.</span>
             </h1>
             <p className="text-xl lg:text-2xl text-primary-600 mb-8 leading-relaxed">
-              AI consultant helping UK SMBs (20-50 employees) automate admin, lead generation, and client communications so you can focus on what actually matters.
+              AI consultant helping UK businesses automate admin, lead generation, and client communications so you can focus on what actually matters.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link 
@@ -95,7 +95,7 @@ export default function HomePage() {
               Who I Help
             </h2>
             <p className="text-xl text-primary-600 max-w-3xl mx-auto">
-              Successful UK businesses that have outgrown basic tools but aren't big enough for enterprise software. If you're doing £200K-£5M annually, this is for you.
+              UK businesses that have outgrown basic tools but don't have an in-house tech team. If admin is eating your time, this is for you.
             </p>
           </div>
 
@@ -195,40 +195,38 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Social Proof Section */}
+      {/* About Me Section */}
       <section className="py-20 bg-gradient-to-r from-primary-900 to-primary-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-              Results That Matter
-            </h2>
-            <p className="text-xl text-primary-200 max-w-3xl mx-auto">
-              Real businesses, real savings, real growth. Here's what happens when you stop losing opportunities to manual processes.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-8 bg-primary-800/50 rounded-xl backdrop-blur-sm">
-              <div className="text-3xl font-bold text-accent-400 mb-2">15+ hours</div>
-              <p className="text-primary-200">Saved per week on average</p>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+                About Me
+              </h2>
+              <p className="text-lg text-primary-200 mb-4 leading-relaxed">
+                I'm James. I started my career as a founding engineer at a Y Combinator-backed startup, building systems that needed to work at scale from day one. That's where I learned to think in terms of automation, efficiency, and what actually moves the needle.
+              </p>
+              <p className="text-lg text-primary-200 mb-4 leading-relaxed">
+                After years building technology for tech companies, I realised the businesses that could benefit most from smart automation weren't the ones with venture funding and engineering teams. They were the local firms, practices, and agencies that form the backbone of the UK economy.
+              </p>
+              <p className="text-lg text-primary-200 mb-6 leading-relaxed">
+                So I left to build something closer to the ground. I help real businesses solve real problems with AI, without the hype or complexity that usually comes with it. If AI isn't the right solution for you, I'll tell you.
+              </p>
+              <Link 
+                href="/about" 
+                className="inline-flex items-center text-accent-400 hover:text-accent-300 font-medium transition-colors"
+              >
+                Read more about my approach
+                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
             </div>
-            
-            <div className="text-center p-8 bg-primary-800/50 rounded-xl backdrop-blur-sm">
-              <div className="text-3xl font-bold text-accent-400 mb-2">£50K+</div>
-              <p className="text-primary-200">Annual revenue recovered from missed calls</p>
+            <div className="flex justify-center">
+              <div className="w-72 h-72 bg-primary-700/50 rounded-2xl flex items-center justify-center border border-primary-600/30">
+                <span className="text-primary-400 text-sm">Photo placeholder</span>
+              </div>
             </div>
-            
-            <div className="text-center p-8 bg-primary-800/50 rounded-xl backdrop-blur-sm">
-              <div className="text-3xl font-bold text-accent-400 mb-2">2-4 weeks</div>
-              <p className="text-primary-200">From start to seeing results</p>
-            </div>
-          </div>
-
-          <div className="mt-16 text-center">
-            <blockquote className="text-xl italic text-primary-100 max-w-4xl mx-auto mb-8">
-              "I went from spending every evening answering messages to checking a report once a day. It's the difference between running a business and being run by it."
-            </blockquote>
-            <cite className="text-primary-300">— E-commerce Business Owner, £500K annual revenue</cite>
           </div>
         </div>
       </section>
