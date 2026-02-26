@@ -40,21 +40,21 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold mb-4">Services</h4>
+            <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/services#discovery" className="text-primary-300 hover:text-white transition-colors">
-                  Discovery Call
+                <Link href="/blog" className="text-primary-300 hover:text-white transition-colors">
+                  Blog
                 </Link>
               </li>
               <li>
-                <Link href="/services#implementation" className="text-primary-300 hover:text-white transition-colors">
-                  Implementation
+                <Link href="/newsletter" className="text-primary-300 hover:text-white transition-colors">
+                  Newsletter
                 </Link>
               </li>
               <li>
-                <Link href="/services#support" className="text-primary-300 hover:text-white transition-colors">
-                  Ongoing Support
+                <Link href="https://cal.com/james-turnbull/30min" target="_blank" className="text-primary-300 hover:text-white transition-colors">
+                  Book a Call
                 </Link>
               </li>
             </ul>

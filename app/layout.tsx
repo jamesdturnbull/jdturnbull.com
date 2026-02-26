@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     default: 'JD Turnbull - AI Consulting for UK Businesses',
     template: '%s | JD Turnbull'
   },
-  description: 'You don\'t need more staff. You need smarter systems. AI consultant helping UK SMBs (20-50 employees) automate admin, lead gen, and client communications.',
+  description: 'You don\'t need more staff. You need smarter systems. AI consultant helping UK businesses automate admin, lead gen, and client communications.',
   keywords: ['AI consultant', 'business automation', 'UK SMB', 'lead generation', 'AI systems'],
   authors: [{ name: 'James Turnbull' }],
   creator: 'James Turnbull',

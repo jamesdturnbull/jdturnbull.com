@@ -126,56 +126,56 @@ export default function AboutPage() {
           <section className="mb-16">
             <h2 className="text-3xl font-bold text-primary-900 mb-8 text-center">How We Work</h2>
             <div className="space-y-8">
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-accent-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+              <div className="flex gap-4">
+                <div className="w-8 h-8 bg-accent-600 rounded-full flex items-center justify-center flex-shrink-0">
                   <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-primary-900 mb-2">Honest Assessment</h3>
+                  <h3 className="font-semibold text-primary-900 mb-2 leading-8">Honest Assessment</h3>
                   <p className="text-primary-600">
                     If AI isn't right for your problem, I'll tell you. No overselling, no buzzwords, just practical solutions that work.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-accent-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+              <div className="flex gap-4">
+                <div className="w-8 h-8 bg-accent-600 rounded-full flex items-center justify-center flex-shrink-0">
                   <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-primary-900 mb-2">Results-Focused</h3>
+                  <h3 className="font-semibold text-primary-900 mb-2 leading-8">Results-Focused</h3>
                   <p className="text-primary-600">
                     Every project has clear success metrics. We measure time saved, revenue recovered, and problems solved.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-accent-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+              <div className="flex gap-4">
+                <div className="w-8 h-8 bg-accent-600 rounded-full flex items-center justify-center flex-shrink-0">
                   <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-primary-900 mb-2">No Vendor Lock-in</h3>
+                  <h3 className="font-semibold text-primary-900 mb-2 leading-8">No Vendor Lock-in</h3>
                   <p className="text-primary-600">
                     You own your systems. If you want to work with someone else tomorrow, everything transfers cleanly.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-accent-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+              <div className="flex gap-4">
+                <div className="w-8 h-8 bg-accent-600 rounded-full flex items-center justify-center flex-shrink-0">
                   <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-primary-900 mb-2">Plain English</h3>
+                  <h3 className="font-semibold text-primary-900 mb-2 leading-8">Plain English</h3>
                   <p className="text-primary-600">
                     No jargon, no technical complexity. We explain everything in terms that make sense for your business.
                   </p>
@@ -196,12 +196,12 @@ export default function AboutPage() {
               <Link 
                 href="https://cal.com/james-turnbull/30min" 
                 target="_blank"
-                className="btn btn-primary"
+                className="inline-flex items-center px-6 py-3 text-base font-medium rounded-lg bg-accent-600 text-white hover:bg-accent-700 shadow-lg hover:shadow-xl transition-all duration-200"
               >
                 Book Free Discovery Call
               </Link>
-              <Link href="/services" className="btn btn-outline">
-                View Services
+              <Link href="/blog" className="btn btn-outline">
+                Read the Blog
               </Link>
             </div>
           </section>

@@ -19,9 +19,6 @@ export function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/services" className="text-primary-700 hover:text-accent-600 font-medium transition-colors">
-              Services
-            </Link>
             <Link href="/blog" className="text-primary-700 hover:text-accent-600 font-medium transition-colors">
               Blog
             </Link>
@@ -64,9 +61,6 @@ export function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-primary-200">
             <div className="flex flex-col space-y-4">
-              <Link href="/services" className="text-primary-700 hover:text-accent-600 font-medium">
-                Services
-              </Link>
               <Link href="/blog" className="text-primary-700 hover:text-accent-600 font-medium">
                 Blog
               </Link>

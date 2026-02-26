@@ -24,8 +24,8 @@ export default function HomePage() {
               >
                 Book Free Discovery Call
               </Link>
-              <Link href="/services" className="btn btn-outline text-lg px-8 py-4">
-                View Services
+              <Link href="/blog" className="btn btn-outline text-lg px-8 py-4">
+                Read the Blog
               </Link>
             </div>
             <p className="text-sm text-primary-500 mt-4">
