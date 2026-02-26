@@ -25,7 +25,7 @@ export function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com/company/jdturnbull" 
+                href="https://www.linkedin.com/company/112027877" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary-400 hover:text-white transition-colors"
