@@ -1,13 +1,21 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+// Only initialize Resend if API key is available
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
 
 // Use the existing "General" audience ID
 const AUDIENCE_ID = '59536608-d659-4677-9945-0fd37debc0bb'
 
 export async function POST(request: NextRequest) {
   try {
+    if (!resend) {
+      return NextResponse.json(
+        { error: 'Newsletter service is currently unavailable.' },
+        { status: 503 }
+      )
+    }
+
     const { email } = await request.json()
 
     if (!email || !email.includes('@')) {

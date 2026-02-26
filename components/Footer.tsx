@@ -5,12 +5,12 @@ export function Footer() {
   return (
     <footer className="bg-primary-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2">
             <h3 className="text-lg font-bold mb-4">JD Turnbull</h3>
             <p className="text-primary-300 mb-6 text-sm leading-relaxed">
-              AI Consulting for UK Businesses. Helping SMBs automate admin, lead generation, and client communications so you can focus on what matters most.
+              The Anti-Hype AI Strategist for UK business owners who've built something worth protecting. Practical AI solutions for established businesses.
             </p>
             <div className="flex space-x-4">
               <a 
@@ -38,10 +38,37 @@ export function Footer() {
             </div>
           </div>
 
+          {/* Sectors */}
+          <div>
+            <h4 className="font-semibold mb-4">Sectors</h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/sectors/construction" className="text-primary-300 hover:text-white transition-colors">
+                  Construction
+                </Link>
+              </li>
+              <li>
+                <Link href="/sectors/professional-services" className="text-primary-300 hover:text-white transition-colors">
+                  Professional Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/sectors/healthcare" className="text-primary-300 hover:text-white transition-colors">
+                  Healthcare
+                </Link>
+              </li>
+            </ul>
+          </div>
+
           {/* Quick Links */}
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/assessment" className="text-primary-300 hover:text-white transition-colors">
+                  AI Assessment
+                </Link>
+              </li>
               <li>
                 <Link href="/blog" className="text-primary-300 hover:text-white transition-colors">
                   Blog
@@ -70,18 +97,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-primary-300 hover:text-white transition-colors">
-                  Blog
-                </Link>
-              </li>
-              <li>
                 <Link href="/contact" className="text-primary-300 hover:text-white transition-colors">
                   Contact
-                </Link>
-              </li>
-              <li>
-                <Link href="/newsletter" className="text-primary-300 hover:text-white transition-colors">
-                  Newsletter
                 </Link>
               </li>
             </ul>
@@ -99,7 +116,7 @@ export function Footer() {
             © {new Date().getFullYear()} JD Turnbull. All rights reserved.
           </p>
           <p className="text-primary-400 text-sm mt-2 md:mt-0">
-            AI Consulting for UK Businesses
+            The Anti-Hype AI Strategist for UK Businesses
           </p>
         </div>
       </div>
