@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'James Turnbull is a former YC founding engineer turned AI consultant, helping UK SMBs automate admin and grow smarter.',
+  description: 'James Turnbull is a software engineer turned AI consultant. Four years building products in startups, now helping UK businesses automate and grow.',
 }
 
 export default function AboutPage() {
@@ -16,7 +16,7 @@ export default function AboutPage() {
             About James
           </h1>
           <p className="text-xl text-primary-600">
-            Former YC founding engineer turned AI consultant. Helping UK businesses work smarter, not harder.
+            Software engineer turned AI consultant. Four years building products in startups, now helping UK businesses work smarter.
           </p>
         </div>
 
@@ -31,13 +31,16 @@ export default function AboutPage() {
             <div>
               <h2 className="text-2xl font-bold text-primary-900 mb-4">My Story</h2>
               <p className="text-primary-700 leading-relaxed mb-4">
-                I started my career as a founding engineer at a Y Combinator-backed startup, building systems that needed to scale from zero to millions of users overnight. It was brilliant training in thinking about automation, efficiency, and what actually moves the needle.
+                I'm a full stack software engineer with four years of experience building products in startups. Most recently I was the founding engineer at Yuzu Labs, a YC-backed company where I led development of their AI video automation platform, designing the rendering system and building a modular TypeScript monorepo from the ground up.
               </p>
               <p className="text-primary-700 leading-relaxed mb-4">
-                After several years in Silicon Valley building technology for tech companies, I realised something: the businesses that could benefit most from smart automation weren't the ones with venture funding and engineering teams. They were the local restaurants, law firms, dental practices, and trade businesses that form the backbone of the UK economy.
+                Before that I was Product Lead at Officely, where I built their meeting rooms product for Microsoft Teams. I've also founded two of my own products: HeySabio, an AI-powered iOS app, and Symplex, an AI command platform for customer acquisition with integrations into Meta, TikTok, and Google advertising.
+              </p>
+              <p className="text-primary-700 leading-relaxed mb-4">
+                My career actually started in construction. I managed commercial work packages on the £9Bn Battersea Power Station development at Mace Group, was offered a graduate position, and turned it down to pursue software engineering full time. I studied Quantity Surveying at the University of Reading and Computer Science at Henley College.
               </p>
               <p className="text-primary-700 leading-relaxed">
-                So I left to build something closer to the ground — helping real businesses solve real problems with AI, without the hype or complexity that usually comes with it.
+                Now I take the same tools and thinking I've used to build products for funded startups and apply them to UK businesses where the impact is immediate. Estate agents, dental practices, law firms, recruitment agencies. The businesses that keep the economy running but don't have engineering teams.
               </p>
             </div>
 

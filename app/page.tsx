@@ -204,19 +204,19 @@ export default function HomePage() {
                 About Me
               </h2>
               <p className="text-lg text-primary-200 mb-4 leading-relaxed">
-                I'm James. I started my career as a founding engineer at a Y Combinator-backed startup, building systems that needed to work at scale from day one. That's where I learned to think in terms of automation, efficiency, and what actually moves the needle.
+                I'm James. I've spent four years as a software engineer in startups, most recently as the founding engineer at a YC-backed company where I built their AI video automation platform from scratch. Before that I led product at an office management SaaS, founded my own AI apps, and built ad-tech integrations with Meta, TikTok, and Google.
               </p>
               <p className="text-lg text-primary-200 mb-4 leading-relaxed">
-                After years building technology for tech companies, I realised the businesses that could benefit most from smart automation weren't the ones with venture funding and engineering teams. They were the local firms, practices, and agencies that form the backbone of the UK economy.
+                I've always been more interested in what technology can do for real businesses than in building tech for tech's sake. The companies that need AI most aren't the ones with engineering teams and venture funding. They're the estate agents, dental practices, law firms, and recruitment agencies running the UK economy on spreadsheets and manual processes.
               </p>
               <p className="text-lg text-primary-200 mb-6 leading-relaxed">
-                So I left to build something closer to the ground. I help real businesses solve real problems with AI, without the hype or complexity that usually comes with it. If AI isn't the right solution for you, I'll tell you.
+                That's why I started consulting. I take the same tools and systems I've built for funded startups and apply them to businesses where the impact is immediate and measurable. If AI isn't the right move for you, I'll say so.
               </p>
               <Link 
                 href="/about" 
                 className="inline-flex items-center text-accent-400 hover:text-accent-300 font-medium transition-colors"
               >
-                Read more about my approach
+                Read more about my background
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
